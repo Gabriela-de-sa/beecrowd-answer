@@ -1,0 +1,36 @@
+n = float(input())
+
+if n >= 0 and n <= 400.00:
+    total = n + (n * 15/100)
+    reajuste = total - n
+    print(f'Novo salario: {total:.2f}')
+    print(f'Reajuste ganho: {reajuste:.2f}')
+    print('Em percentual: 15 %')
+
+elif n >= 400.01 and n <= 800.00:
+    total = n + (n * 12/100)
+    reajuste = total - n
+    print(f'Novo salario: {total:.2f}')
+    print(f'Reajuste ganho: {reajuste:.2f}')
+    print('Em percentual: 12 %')
+
+elif n >= 800.01 and n <= 1200.00:
+    total = n + (n * 10/100)
+    reajuste = total - n
+    print(f'Novo salario: {total:.2f}')
+    print(f'Reajuste ganho: {reajuste:.2f}')
+    print('Em percentual: 10 %')
+elif n >= 1200.01 and n <= 2000.00:
+    total = n + (n * 7/100)
+    reajuste = total - n
+    print(f'Novo salario: {total:.2f}')
+    print(f'Reajuste ganho: {reajuste:.2f}')
+    print('Em percentual: 7 %')
+else:
+    total = n + (n * 4/100)
+    reajuste = total - n
+    print(f'Novo salario: {total:.2f}')
+    print(f'Reajuste ganho: {reajuste:.2f}')
+    print('Em percentual: 4 %')
+    
+    
