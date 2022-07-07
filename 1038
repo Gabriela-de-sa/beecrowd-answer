@@ -1,0 +1,16 @@
+n = input().split()
+lista = [int(i) for i in n]
+cod = lista[0]
+qtd = lista[1]
+if cod == 1:
+    total = 4.00 * qtd
+if cod == 2:
+    total = 4.50 * qtd
+if cod == 3:
+    total = 5.00 * qtd
+if cod == 4:
+    total = 2.00 * qtd
+if cod == 5:
+    total = 1.50 * qtd
+print(f'Total:R${total:.2f}')
+
