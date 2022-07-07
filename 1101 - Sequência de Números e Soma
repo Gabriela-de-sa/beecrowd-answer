@@ -1,0 +1,18 @@
+while True:
+    n = input().split()
+    lista = [int(i) for i in n]
+    n = lista[0]
+    m = lista[1]
+    if n <= 0 or m <= 0:
+        break
+    else:
+        ordem = sorted(lista)
+        n = ordem[0]
+        m = ordem[1]
+        nova = []
+        soma = 0
+        for i in range(n, m+1):
+            nova.append(i)
+            soma += i
+        print(*nova, f'Sum={soma}')
+
