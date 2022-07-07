@@ -1,0 +1,30 @@
+1094 – Experiências
+n = int(input())
+
+total = 0
+coelho = 0
+sapo = 0
+rato = 0
+
+for i in range (n):
+   n, tipo = input().split()
+   n = int(n)                        # definir o tipo quando se usa o split
+   tipo = tipo.upper()
+   total += n
+   if tipo == 'C':
+      coelho += n
+   if tipo == 'S':
+      sapo += n
+   if tipo == 'R':
+      rato += n
+percoelho = coelho * 100 / total
+perrato = rato * 100 / total
+persapo = sapo * 100 / total
+    
+print(f'Total: {total} cobaias')
+print(f'Total de coelhos: {coelho}')
+print(f'Total de ratos: {rato}')
+print(f'Total de sapos: {sapo}')
+print(f'Percentual de coelhos: {percoelho:.2f} %')
+print(f'Percentual de ratos: {perrato:.2f} %')
+print(f'Percentual de sapos: {persapo:.2f} %')
