@@ -1,0 +1,22 @@
+n = int(input())
+cem = n // 100
+saldo = n % 100            # o resto de 100
+cinquenta = saldo // 50
+saldo = saldo % 50             # o resto de 50
+vinte = saldo // 20
+saldo = saldo % 20              # o resto de 20
+dez = saldo // 10
+saldo = saldo % 10
+cinco = saldo // 5
+saldo = saldo % 5
+dois = saldo // 2
+saldo = saldo % 2
+print(n)
+print(f'{cem} nota(s) de R$ 100,00')
+print(f'{cinquenta} nota(s) de R$ 50,00')
+print(f'{vinte} nota(s) de R$ 20,00')
+print(f'{dez} nota(s) de R$ 10,00')
+print(f'{cinco} nota(s) de R$ 5,00')
+print(f'{dois} nota(s) de R$ 2,00')
+print(f'{saldo} nota(s) de R$ 1,00')
+
