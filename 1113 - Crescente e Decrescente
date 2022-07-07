@@ -1,0 +1,12 @@
+while True:
+    n = input().split()
+    lista = [int(i) for i in n]
+    x = lista[0]
+    y = lista[1]
+    if x  == y:
+        break
+    else:
+        if x < y:
+            print('Crescente')
+        else:
+            print('Decrescente')
