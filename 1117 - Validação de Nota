@@ -1,0 +1,14 @@
+soma = 0
+validas = 0
+while True:
+    n = float(input())
+    if n < 0 or n > 10:
+        print('nota invalida')
+    else:
+        soma += n
+        validas += 1
+        if validas == 2:
+            media = soma / 2
+            print(f'media = {media}')
+            break
+
