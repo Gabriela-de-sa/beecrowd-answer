@@ -1,0 +1,39 @@
+n = float(input())
+n100 = n // 100
+resto = n % 100
+n50 = resto // 50
+resto = resto % 50
+n20 = resto // 20
+resto = resto % 20
+n10 = resto // 10
+resto = resto % 10
+n5 = resto // 5
+resto = resto % 5
+n2 = resto // 2
+resto = resto % 2
+#moedas
+moeda1 = resto // 1
+resto = resto % 1
+moeda50 = resto // 0.50
+resto = resto % 0.50
+moeda25 = resto // 0.25
+resto = resto % 0.25
+moeda10 = resto // 0.10
+resto = resto % 0.10
+moeda5 = resto // 0.05
+resto = resto % 0.05
+moeda01 = resto // 0.01
+print('NOTAS:')
+print(f'{n100:.0f} nota(s) de R$ 100.00')
+print(f'{n50:.0f} nota(s) de R$ 50.00')
+print(f'{n20:.0f} nota(s) de R$ 20.00')
+print(f'{n10:.0f} nota(s) de R$ 10.00')
+print(f'{n5:.0f} nota(s) de R$ 5.00')
+print(f'{n2:.0f} nota(s) de R$ 2.00')
+print('MOEDAS')
+print(f'{moeda1:.0f} moeda(s) de R$ 1.00')
+print(f'{moeda50:.0f} moeda(s) de R$ 0.50')
+print(f'{moeda25:.0f} moeda(s) de R$ 0.25')
+print(f'{moeda10:.0f} moeda(s) de R$ 0.10')
+print(f'{moeda5:.0f} moeda(s) de R$ 0.05')
+print(f'{moeda01:.0f} moeda(s) de R$ 0.01')
