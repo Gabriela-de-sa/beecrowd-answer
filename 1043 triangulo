@@ -1,0 +1,11 @@
+n = input().split()
+lista = [float(i) for i in n]
+a = lista[0]
+b = lista[1]
+c = lista[2]
+if b + c > a and a + c > b and a + b > c:
+    p = a + b + c 
+    print(f'Perimetro = {p}')
+else:
+    a = (a + b) * c / 2
+    print(f'Area = {a}')
