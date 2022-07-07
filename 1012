@@ -1,0 +1,16 @@
+x = input().split()
+lista = [float(i) for i in x]
+a = lista[0]
+b = lista[1]
+c = lista[2]
+triangulo = a * c / 2 
+raio = 3.14159 * c**2
+trapezio = (a + b) * c / 2  
+quadrado = b * b 
+retangulo = a * b 
+print(f'TRIANGULO: {triangulo:.3f}')
+print(f'CIRCULO: {raio:.3f}')
+print(f'TRAPEZIO: {trapezio:.3f}')
+print(f'QUADRADO: {quadrado:.3f}')
+print(f'RETANGULO: {retangulo:.3f}')
+
