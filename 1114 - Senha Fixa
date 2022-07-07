@@ -1,0 +1,9 @@
+while True:
+    senha = 2002
+    n = int(input())
+    if n == senha:
+        print('Acesso Permitido')
+        break
+    else:
+        print('Senha Invalida')
+
