@@ -1,0 +1,10 @@
+x = int(input())  #8
+
+lista = []
+                               #1  2  3    4   5   6   7   8   9    10  11   12
+for i in range(x, x + 12):      #8, 9, 10, 11, 12,  13  14  15  16   17  18   19
+    if i % 2 != 0:
+        lista.append(i)        # 9, 11, 13, 15, 17, 19
+
+for i in lista:
+    print(i)
