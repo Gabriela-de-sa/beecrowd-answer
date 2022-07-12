@@ -4,4 +4,4 @@ total_vendas = float(input())
 #bonus = total_vendas * 0.15               # porcentagem de acrescimo
 bonus = total_vendas * 15 / 100
 total = salario_fixo + bonus
-print(f'TOTAL = R$ {total:.2f}')
+print(f'TOTAL = R$ {total:.2f}') 
