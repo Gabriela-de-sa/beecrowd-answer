@@ -1,2 +1,2 @@
 # Beecrowd-Answer
-Answers of the exercises proposed in beecrowd language Python
+Answers to the proposed exercises in the Python language
