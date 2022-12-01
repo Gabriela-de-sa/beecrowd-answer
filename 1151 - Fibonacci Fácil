@@ -3,8 +3,6 @@ lista = [0,1]
 n = int(input())
 
 cont = 2
-i = lista[-1]
-x = lista[-2]
 
 while cont < n:
     i = lista[-1]
