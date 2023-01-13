@@ -1,0 +1,15 @@
+n = int(input())
+
+for i in range(n):
+    try:
+        a = input().split()
+        
+        x = int(a[0])
+        y = int(a[1])
+        
+        div = x / y 
+    
+        print(f'{div:.1f}')
+    
+    except ZeroDivisionError:
+        print('divisao impossivel')
