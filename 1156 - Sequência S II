@@ -1,0 +1,13 @@
+impar = 3
+quad = 2
+sum = 0
+
+while impar <= 39:
+    sum += impar / quad
+    
+    impar += 2
+    quad *= 2
+    
+s = sum + 1
+
+print(f'{s:.2f}')
