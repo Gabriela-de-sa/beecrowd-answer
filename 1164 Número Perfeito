@@ -1,0 +1,20 @@
+# Solucao: O(N^2)
+
+n = int(input())
+
+for i in range(0, n):
+    X = int(input())  
+    
+    cont = 1  
+    sum = 0      
+    
+    while cont < X:
+        if X % cont == 0:     
+            sum += cont
+        
+        cont += 1
+        
+    if sum == X:
+        print(f'{X} eh perfeito')
+    else:
+        print(f'{X} nao eh perfeito')   
