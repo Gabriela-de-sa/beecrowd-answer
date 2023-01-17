@@ -1,0 +1,16 @@
+n = []
+
+cont = 0
+
+for i in range(9):
+    if cont < 1:
+        x = int(input())
+        n.append(x)
+        cont +=1
+
+    x = x *2
+    n.append(x)
+
+
+for i, v in enumerate(n):
+    print(f'N[{i}] = {v}')
