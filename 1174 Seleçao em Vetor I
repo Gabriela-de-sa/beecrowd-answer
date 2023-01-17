@@ -1,0 +1,10 @@
+n = []
+
+for i in range(100):
+    x = float(input())
+    
+    n.append(x)
+    
+for i, v in enumerate (n):
+    if v <= 10.0:
+        print(f'A[{i}] = {v}')
