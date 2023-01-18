@@ -1,0 +1,17 @@
+lista = []
+
+for i in range(20):
+    x = int(input())
+    lista.append(x)
+
+a = 0
+b = len(lista)-1
+
+while a < b: 
+    lista[a], lista[b] = lista[b], lista[a]
+    
+    a += 1
+    b -=1
+
+for i, v in enumerate(lista):
+    print(f'N[{i}] = {v}') 
