@@ -1,0 +1,23 @@
+dic = {
+    'Curupira': 300,
+    'Boitatá': 1500,
+    'Boto': 600,
+    'Mapinguari': 1000,
+    'Iara': 150
+}
+
+sum = 0
+
+cont = 5
+
+for i in dic.values():
+    x = int(input())
+    
+    sum += i * x
+    
+    cont -= 1
+    
+    if cont <= 0:
+        break    
+
+print(sum + 225) 
