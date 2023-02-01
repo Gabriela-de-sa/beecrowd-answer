@@ -7,7 +7,7 @@ cont = 2
 while cont < n:
     i = lista[-1]
     x = lista[-2]
-    sum = i + x # arrumar pois n esta somando
+    sum = i + x
     lista.append(sum)
     cont += 1
 print(*lista)
